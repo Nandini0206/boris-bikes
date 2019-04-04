@@ -31,4 +31,5 @@ describe DockingStation do
   it 'allows user to set a larger capacity' do
     expect(subject.capacity).to eq DockingStation::DEFAULT_CAPACITY
   end
+
 end
